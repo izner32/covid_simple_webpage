@@ -23,7 +23,7 @@ function Infographic() {
                         <div className="flex justify-center lg:block mb-8 lg:mb-0 lg:mr-8">
                             <img className="" src="webmd_logo.png" alt="WebMD Logo" width="100" height="20"></img>
                         </div>
-                        <div classname="flex flex-col">
+                        <div className="flex flex-col">
                             <p className="text-white font-medium">WebMD</p>
                             <p className="text-white font-light">Health News Publisher</p>
                         </div>
