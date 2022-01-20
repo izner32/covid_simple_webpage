@@ -4,7 +4,7 @@ function Infographic() {
     return (
         <>
             {/* How did coronavirus started? */}
-            <section className="p-20">
+            <section className="p-20 text-sm md:text-base">
                 <div 
                 className="rounded-lg p-16"
                 style={{  
@@ -40,7 +40,7 @@ function Infographic() {
             </section>
 
             {/* Symptoms of coronavirus */}
-            <section className="p-20 pt-0">
+            <section className="p-20 pt-0 text-sm md:text-base">
                 <div 
                 className="rounded-lg p-16"
                 style={{  
@@ -64,11 +64,11 @@ function Infographic() {
                             <p className="text-white font-light">Nation's Health Protection Agency</p>
                         </div>
                         </div>
-                        <div className="lg:w-[50%] text-center lg:text-left text-white font-light ">
+                        <div className="lg:w-[50%] text-center lg:text-left text-white font-light">
                             <p className="mb-8">
                                 People with COVID-19 have had a wide range of symptoms reported – ranging from mild symptoms to severe illness. Symptoms may appear 2-14 days after exposure to the virus. Anyone can have mild to severe symptoms. People with these symptoms may have COVID-19:
                             </p>
-                            <ul className="w-[75%] pl-16 mb-8 text-left">
+                            <ul className="w-[75%] pl-8 md:pl-16 mb-8 text-left">
                                 <li>Fever or chills</li>
                                 <li>Cough</li>
                                 <li>Shortness of breath or difficulty breathing</li>
@@ -88,9 +88,9 @@ function Infographic() {
                     </div>
                 </div>
             </section>
-            <section className="p-20">
-                <h1 className="font-bold text-2xl md:text-4xl lg:text-6xl text-center sm:leading-loose md:leading-loose lg:leading-loose">How to avoid coronavirus?</h1>
-                <h1 className="font-bold text-2xl md:text-4xl lg:text-6xl text-center sm:leading-loose md:leading-loose lg:leading-loose">
+            <section className="p-20 pb-40">
+                <h1 className="font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl text-center sm:leading-loose md:leading-loose lg:leading-loose">How to avoid coronavirus?</h1>
+                <h1 className="font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl text-center leading-loose sm:leading-loose md:leading-loose lg:leading-loose">
                     Wear a mask.<br></br>
                     Save lives.<br></br>
                     Wear a mask<br></br>
