@@ -3,7 +3,7 @@ import React from 'react'
 function Nav() {
     return (
         <>
-            <nav className="lg:flex justify-between w-[80%] mx-auto py-8">
+            <nav className="lg:flex justify-between w-[80%] mx-auto py-8 text-xs sm:text-sm md:text-base lg:text-lg">
                 <p className="font-medium text-xl mb-8 lg:mb-0">Renzfographics</p>
                 <div className="flex flex-col text-left lg:text-right">
                     <a className="hover:text-blue-500" href="#description">What is covid-19?</a>

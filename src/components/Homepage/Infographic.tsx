@@ -4,9 +4,9 @@ function Infographic() {
     return (
         <>
             {/* How did coronavirus started? */}
-            <section className="p-20 text-sm md:text-base" id="origin">
+            <section className="lg:p-20 text-xs sm:text-sm md:text-base lg:text-lg" id="origin">
                 <div 
-                className="rounded-lg p-16"
+                className="lg:rounded-lg p-16"
                 style={{  
                     backgroundImage: "url(" + "https://i.ibb.co/yqQ0g2m/Rectangle-13.png" + ")",
                     backgroundPosition: 'center',
@@ -40,9 +40,9 @@ function Infographic() {
             </section>
 
             {/* Symptoms of coronavirus */}
-            <section className="p-20 pt-0 text-sm md:text-base" id="symptom">
+            <section className="lg:p-20 pt-0 text-xs sm:text-sm md:text-base lg:text-lg" id="symptom">
                 <div 
-                className="rounded-lg p-16"
+                className="lg:rounded-lg p-16"
                 style={{  
                     backgroundImage: "url(" + "https://i.ibb.co/yqQ0g2m/Rectangle-13.png" + ")",
                     backgroundPosition: 'center',
@@ -89,7 +89,7 @@ function Infographic() {
             </section>
 
             {/* How to avoid coronavirus? */}
-            <section className="p-20 pb-40" id="avoid">
+            <section className="p-20 lg:pb-40" id="avoid">
                 <h1 className="font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl text-center sm:leading-loose md:leading-loose lg:leading-loose">How to avoid coronavirus?</h1>
                 <h1 className="font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl text-center leading-loose sm:leading-loose md:leading-loose lg:leading-loose">
                     Wear a mask.<br></br>

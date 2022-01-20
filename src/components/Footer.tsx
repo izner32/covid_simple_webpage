@@ -12,7 +12,7 @@ function Footer() {
                     backgroundRepeat: 'no-repeat'
                 }}
                 >
-                <h6 className="font-medium text-white text-sm">Copyright © 2022, Renzfographic. All Rights Reserved</h6>
+                <h6 className="font-medium text-white text-xs sm:text-sm md:text-base lg:text-lg">Copyright © 2022, Renzfographic. All Rights Reserved</h6>
             </div>
         </>
     )
