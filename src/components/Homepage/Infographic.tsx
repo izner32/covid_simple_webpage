@@ -58,7 +58,7 @@ function Infographic() {
                         <div className="flex justify-center lg:block mb-8 lg:mb-0 lg:mr-8">
                             <img className="" src="cdc_logo.png" alt="CDC Logo" width="100" height="20"></img>
                         </div>
-                        <div classname="flex flex-col">
+                        <div className="flex flex-col">
                             <p className="text-white font-medium">Center for Disease Control and Prevention</p>
                             <p className="text-white font-light">Nation's Health Protection Agency</p>
                         </div>
